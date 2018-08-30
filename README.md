@@ -16,6 +16,7 @@ and then typed the command `node hello.js` in my terminal, I should expect to se
 Node is well known for its ability to run code **asynchronously**.  This means that input and output are non-blocking, and the process of one function does not stop the execution of another. The way this asynchronous code is implemented is through **callback** functions, which are called after a certain process has been completed. The best way to illustrate this is through example. 
 
 This is a simple server that responds to all requests with the text `Request received!`.
+Hello world!
 
 ```javascript
 var http = require('http'); 
